@@ -2,6 +2,9 @@
 Mr. Bhola is fed-up of giving individual dates as inputs. He wants a complete calendar starting from 1st
 January to 31st December for a given year.
 Write a C program that takes input as a int in format yyyy.*/
+#include<stdio.h>
+#include<stdlib.h>
+
 int Isleapyear(int year){
     if ((year%4==0 && year%100==0) || year%400==0)
     return 1;
