@@ -10,7 +10,7 @@ char firstname[20], lastname[20],fullname[50];
 printf("Enter your first name : ");
 scanf("%s", firstname);
 printf("Enter your last name : ");
-scanf("%s", lastname);
+scanf("%s", lastname);\
 strcpy(fullname, lastname);
 strcat(fullname, " ");
 strcat(fullname,firstname);
